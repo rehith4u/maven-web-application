@@ -5,7 +5,7 @@ pipeline{
         
         stage('CheckoutCode'){
             steps{
-                git credentialsId: 'Git_Credentials', url: 'https://github.com/rehith4u/maven-web-application.git
+                git credentialsId: 'Git_Credentials', url: 'https://github.com/rehith4u/maven-web-application.git'
             }
         }
     
