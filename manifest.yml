@@ -1,6 +1,6 @@
 ---
 applications:
-- name: java
+- name: siva
   buildpacks:
    - java_buildpack
    # - java_buildpack
