@@ -2,7 +2,7 @@ maven-web-application
 
 ---
 applications:
-- name: siva
+- name: java
   buildpacks:
    - java_buildpack
    # - java_buildpack
