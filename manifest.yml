@@ -1,0 +1,16 @@
+maven-web-application
+
+---
+applications:
+- name: siva
+  buildpacks:
+   - java_buildpack
+   # - java_buildpack
+  stack: cflinuxfs3
+  path: /var/lib/jenkins/workspace/java_project/target/maven-web-application-1.0
+  instances: 1
+  memory: 1G
+  disk_quota: 1G
+  
+  #routes:
+    #- route: release-automation-service-d.apps.io
